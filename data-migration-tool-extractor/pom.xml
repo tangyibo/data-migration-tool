@@ -30,16 +30,22 @@
 			<groupId>pentaho-kettle</groupId>
 			<artifactId>kettle-core</artifactId>
 			<version>${kettle.version}</version>
+			<scope>system</scope>
+			<systemPath>${project.basedir}/lib/kettle-core-${kettle.version}.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>pentaho-kettle</groupId>
 			<artifactId>kettle-engine</artifactId>
 			<version>${kettle.version}</version>
+			<scope>system</scope>
+			<systemPath>${project.basedir}/lib/kettle-engine-${kettle.version}.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>pentaho-kettle</groupId>
 			<artifactId>metastore</artifactId>
 			<version>${kettle.version}</version>
+			<scope>system</scope>
+			<systemPath>${project.basedir}/lib/kettle-core-${kettle.version}.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.google.guava</groupId>

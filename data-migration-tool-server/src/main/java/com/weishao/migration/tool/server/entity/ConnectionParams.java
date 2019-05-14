@@ -14,10 +14,10 @@ public class ConnectionParams {
 	@ApiModelProperty(value = "端口号", required = true, example = "3306")
 	private int port;
 
-	@ApiModelProperty(value = "用户名", required = true, example = "tang")
+	@ApiModelProperty(value = "用户名", required = true, example = "tangyibo")
 	private String user;
 
-	@ApiModelProperty(value = "密码", required = true, example = "tang")
+	@ApiModelProperty(value = "密码", required = true, example = "tangyibo")
 	private String passwd;
 
 	@ApiModelProperty(value = "库名称", required = true, example = "tangyb")
